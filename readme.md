@@ -53,8 +53,8 @@ Same as standard square neighbourhood except that there are 15 possible neighbou
 
 There are two display modes:
 
-	1. Ordered - vertices are distributed in a strict grid
-	2. Randomised - vertices are distributed in a strict grid and then their position is randomised by a small offset
+1. Ordered - vertices are distributed in a strict grid
+2. Randomised - vertices are distributed in a strict grid and then their position is randomised by a small offset
 
 ![Triangular scrshot 1](/screenshots/scrshot-tri-1.png)
 
