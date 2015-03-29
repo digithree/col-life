@@ -6,7 +6,7 @@ Definition
 ----------
 from <http://kaytdek.trevorshp.com/projects/computer/neuralNetworks/gameOfLife2.htm>
 
-"In cyclic cellular automata, an ordering of multiple colors is established. Whenever a cell is neighbored by a cell whose color is next in the cycle, it copies that neighbor's color--otherwise, it remains unchanged."
+> In cyclic cellular automata, an ordering of multiple colors is established. Whenever a cell is neighbored by a cell whose color is next in the cycle, it copies that neighbor's color--otherwise, it remains unchanged."
 
 
 Method
@@ -52,6 +52,7 @@ Additionally, a set of more interesting colour palettes were used for this versi
 Same as standard square neighbourhood except that there are 15 possible neighbours instead of 8. In addition, only three of these neighbours will have edge contact, the other 12 have vertex contact. Accordingly, edge contact is weighted to have higher effect that vertex contact.
 
 There are two display modes:
+
 	1. Ordered - vertices are distributed in a strict grid
 	2. Randomised - vertices are distributed in a strict grid and then their position is randomised by a small offset
 
@@ -63,7 +64,7 @@ There are two display modes:
 
 from <http://www.mirekw.com/ca/rullex_cycl.html>
 
-"... the Greenberg-Hastings (GH) Model, perhaps the simplest CA prototype for an excitable medium. A prescribed number of colors N are arranged cyclically in a 'color wheel.' Each color can only advance to the next, the last cycling to 0. Every update, cells change from color 0 (resting) to 1 (excited) if they have at least Threshold 1's in their neighbour set. All other colors (refractory) _advance automatically_. Starting from a uniform random soup of the available colors, the excitation dies out if the threshold is too large compated to the size of the neighbour set, while a disordered soup virtually indistinguishable from noise results if the threshold is too low. For intermediate thresholds, however, waves of excitation self-organise into large scale spiral pairs that stablize in a locally periodic state."
+> ... the Greenberg-Hastings (GH) Model, perhaps the simplest CA prototype for an excitable medium. A prescribed number of colors N are arranged cyclically in a 'color wheel.' Each color can only advance to the next, the last cycling to 0. Every update, cells change from color 0 (resting) to 1 (excited) if they have at least Threshold 1's in their neighbour set. All other colors (refractory) _advance automatically_. Starting from a uniform random soup of the available colors, the excitation dies out if the threshold is too large compated to the size of the neighbour set, while a disordered soup virtually indistinguishable from noise results if the threshold is too low. For intermediate thresholds, however, waves of excitation self-organise into large scale spiral pairs that stablize in a locally periodic state."
 
 I found that the only threshold that works in any case is 4 in our system. This yields aemeba-like organisims or areas with rapidly oscilating fringes. Pretty cool but predictable.
 
